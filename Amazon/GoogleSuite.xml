@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SuiteGoogle">
+<parameter name="Url" value="https://www.google.com/"></parameter>
+  <test thread-count="5" name="TestChrome" parallel="classes">
+  <parameter name="Browser" value="Chrome"/>
+  <classes>
+      <class name="com.qa.testscripts.TC_GooglePage_001"/>
+     </classes>
+  </test>
+</suite>
